@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #9acd32;
+}
+p{
+    margin-bottom: 6px;
+}
+.main-header{
+    width: 100%;
+    height: 80px;
+    background-color: grey;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between
+}
+.nav-header{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 40%;
+    margin-left: auto;
+}
+.nav-header a:hover{
+    color: skyblue;
+    cursor: pointer;
+}
+ul{
+    margin:0 ;
+    padding: 0;
+}
+.nav-links-list{
+    width: 40%;
+    text-align: right;
+    margin-right: auto;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-size: bold;
+}
+.nav-link-item{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+.nav-link-item a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-size: bold;
+}
+
+.container{
+    margin-top: 15%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.background-info{
+    background: #000;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 8px;
+    
+}
+
+.btn-clickme{
+    border: 2px solid black;
+    color: black;
+    padding: 20px;
+    background: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
